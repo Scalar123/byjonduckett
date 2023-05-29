@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+        
+
+    <table class="table-horarios_tarefas" border="2" bgcolor="Grey">
+        <thead>
+            <tr>
+                <th colspan="5" class="titulo-table_tarefas">Table</th>
+            </tr>
+
+            <tr>
+                <th></th>
+                <th scope="col">9am</th>
+                <th scope="col">10am</th>
+                <th scope="col">11am</th>
+                <th scope="col">12am</th>
+            </tr>
+        </thead>    
+        <tbody>
+            <tr>
+                <th scope="row" class="days">Monday</th>
+                <td colspan="2" class="aula-artes">Artes</td> <!--O atributo colspan fazera que o texto entre as tags ocupe 2 colunos
+                (O numero colocado entre parenteses informa o tanto de coluna que deseja ocupar!)-->
+                <td>math</td>
+                <td>Ed. fisica</td>
+            </tr>
+        
+            <tr>
+                <th scope="row" class="days">Tuesday</th>
+                <td colspan="3">Portuguese</td><!--Portugues preenchera tres colunas-->
+                <td rowspan="2">Biol</td><!--Preenchera 2 linhas-->
+            </tr>
+
+            <tr>
+                <th scope="row" class="days">Wednesday</th>
+                <td>Fisic</td>
+                <td colspan="2">math</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                
+                <th colspan="5" class="Fim-tabela" hei>Minhas aulas</td>
+
+            </tr>
+        </tfoot>
+        </table>
+
+
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+.titulo-table_tarefas {
+    font-size: 25px;
+    width: 25px;
+    height: 45px;
+    
+}
+
+.table-horarios_tarefas {
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+td {
+    background-color: rgb(60, 255, 0);
+    width: 80px;
+    
+}
+th {
+    background-color: aqua;
+    width: 80px;
+    
+}
+
+.days{
+    background-color: antiquewhite;
+}
+
+.Fim-tabela{
+    background-color: grey;
+    color: aliceblue;
+    height: 45px;
+}
